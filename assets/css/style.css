@@ -1,0 +1,18 @@
+/* regole generali di pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-logo{
+  width: 90%;
+  padding: 10px;
+}
+
+/* clearfix */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
