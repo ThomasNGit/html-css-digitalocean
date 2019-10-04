@@ -185,14 +185,75 @@
   border-radius: 10px;
   margin-left: 50px;
 }
+/* stile sezione immagini affiancate */
+
+.grey-bg{
+  background-color: #F3F5F9;
+}
+
+.brand h4{
+  text-align: center;
+  color: #ABB6BD;
+  padding-top: 50px;
+}
+
+.brandlist{
+  width: 60%;
+  margin: 5% 20%;
+}
+
+
+.brandlist ul li{
+  display: inline-block;
+
+}
+
+.brandlist ul li img{
+  height: 100px;
+  width: calc((100 / 6) * 1);
+  padding: 10px;
+}
+
+.blues a{
+  font-size: 30px;
+}
+
+/* sezione built for business */
 
 
 
+/* sezione tabelle */
+
+.table-bg{
+  background-image: url("../img/data-center-map.svg");
+  background-color: #031B4E;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.service{
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+table{
+  margin-top: 10%;
+}
 
 
+table a{
+  color: #00D7CE;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-
-
+.tablecontainer{
+  margin-bottom: 5%;
+}
 /* clearfix */
 .row:after{
   content: "";
