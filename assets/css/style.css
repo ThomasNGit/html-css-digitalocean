@@ -276,6 +276,44 @@ table a{
 .tablecontainer{
   margin-bottom: 5%;
 }
+
+
+/* footer */
+
+.footer-bg{
+  background-color: #031B4E;
+}
+
+.footerp1{
+  border-bottom: 1px solid white;
+}
+
+.listcontainer{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footerlist{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.footerlist li{
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.footerlist li a{
+  color: #808794;
+}
+
+.footerlist li a:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
 /* clearfix */
 .row:after{
   content: "";
