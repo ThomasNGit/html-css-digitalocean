@@ -277,6 +277,35 @@ table a{
   margin-bottom: 5%;
 }
 
+/* sezione get started */
+
+.get-started{
+  color:  #fff;
+  font-size: 35px;
+  padding-top: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.create{
+  text-align: center;
+  margin-bottom: 50px;;
+}
+
+.create a{
+    color: #0049FF;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.create a:hover{
+  text-decoration: none;
+  opacity: 0.8;
+}
 
 /* footer */
 
@@ -284,9 +313,6 @@ table a{
   background-color: #031B4E;
 }
 
-.footerp1{
-  border-bottom: 1px solid white;
-}
 
 .listcontainer{
   width: 80%;
