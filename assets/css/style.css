@@ -159,21 +159,39 @@
   text-align: center;
 }
 
-.choice ul li{
-  display: inline-block;
-  width: 40%;
-  text-align: center;
-  margin: 10% 5% 10% 0;
+/* sezioni link  */
+.linkcontainer{
+  margin: 5% 10%;
+  width: 80%;
 }
 
-.choice ul li a{
-  padding: 20px;
-  border: 1px solid #0069FF;
-  border-radius: 5px;
-  background-color: #F2F8FF;
+.google{
   font-size: 20px;
   font-weight: bold;
+  color:#000;
+  padding: 15px;
+  background-color: #F2F8FF;
+  border: 1px solid black;
+  border-radius: 10px;
 }
+
+.github{
+  font-size: 20px;
+  font-weight: bold;
+  color:#000;
+  padding: 15px;
+  background-color: #F2F8FF;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
 
 /* clearfix */
 .row:after{
